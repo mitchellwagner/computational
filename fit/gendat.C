@@ -15,7 +15,6 @@
 
    TGraph *g = new TGraph(n,x,y);
    g->Draw("ap");
-
    g->Fit(c);
    f->SetLineColor(kRed);
    f->Draw("same");
