@@ -1,0 +1,18 @@
+Guide for trees:
+
+https://root.cern.ch/root/htmldoc/guides/users-guide/Trees.html
+
+Helpful tree commands after you are in a root file
+
+-T->Show(1)
+|lists entry 2 of the array
+
+-T->Print()
+|prints the tree's branch and leaf structure and information
+
+-T->Scan("Cost:Age:Children")
+|prints array colums "cost, age, and children"
+
+-T->StartViewer()
+|convenient way to look at the tree and plot various graphs
+
