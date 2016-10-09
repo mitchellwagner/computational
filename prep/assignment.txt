@@ -1,0 +1,18 @@
+Assignment
+
+-ssh into HPC with X11forwarding enabled
+
+-mdp ~Jing.Liu/phys492/10.06.tree/lecture.md (I updated it after class)
+
+-write a ROOT script to create a TFile create a TTree inside the file
+
+-use TTree::ReadFile to read ~Jing.Liu/phys492/10.06.tree/oil.txt (Hint: 1st column can be read with
+"date/C")
+
+-use TTree::Draw() to draw dd versus dm with a cut that daily<100 and drawing option "colz"
+
+-draw dm and save it to a histogram hdm with 10 bins draw hdm with option "e" and fit it with gaus 
+
+-save the histogram and tree to the file
+                                    
+-If you cannot do these, you are going to fail in the mid term exam!
