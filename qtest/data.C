@@ -45,7 +45,7 @@ void data(){
 
    
   TF1 *fc = new TF1("fc","[3]+gaus(0)",620,700);
-  fc->SetParameters(.000000027.,657.,8.,1.);
+  fc->SetParameters(.000006.,657.,8.,.000001);
   fc->SetLineColor(kBlue);
   hCopy->Fit("fc");
   hCopy->Draw();
